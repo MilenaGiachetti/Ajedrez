@@ -27,5 +27,4 @@ function crearTablero(){
     };
 };
 
-setInterval('crearTablero()',1000);
 btnTablero.addEventListener('click', crearTablero);
